@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Source: Symfonium fallback rounded/Looks3.kt -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="960"
+    android:viewportHeight="960">
     <path
-        android:fillColor="@android:color/transparent"
-        android:pathData="M12,4L20,12L12,20L4,12L12,4Z"
-        android:strokeColor="#FF000000"
-        android:strokeLineJoin="round"
-        android:strokeWidth="2" />
+        android:fillColor="#FF000000"
+        android:pathData="M 535 683 q 24 0 42 -18 t 18 -42 v -87 q 0 -27 -14.5 -42.5 T 546 478 q 20 0 34.5 -13.5 T 595 423 v -86 q 0 -24 -18 -42 t -42 -18 L 395 277 q -12.75 0 -21.38 8.68 q -8.63 8.68 -8.63 21.5 q 0 12.82 8.63 21.33 T 395 337 h 140 v 111 h -57 q -12.75 0 -21.38 8.68 q -8.63 8.68 -8.63 21.5 q 0 12.82 8.63 21.33 T 478 508 h 57 v 115 L 395 623 q -12.75 0 -21.38 8.68 q -8.63 8.68 -8.63 21.5 q 0 12.82 8.63 21.33 T 395 683 h 140 Z M 180 840 q -24 0 -42 -18 t -18 -42 v -600 q 0 -24 18 -42 t 42 -18 h 600 q 24 0 42 18 t 18 42 v 600 q 0 24 -18 42 t -42 18 L 180 840 Z M 180 780 h 600 v -600 L 180 180 v 600 Z M 180 180 v 600 v -600 Z" />
 </vector>

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Source: Symfonium fallback provider/Subsonic.kt -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="64"
+    android:viewportHeight="64">
     <path
         android:fillColor="#FF000000"
-        android:pathData="M12,4L20,12L12,20L4,12L12,4Z" />
+        android:pathData="M 17.875 14 L 18.125 14 A 1.875 2.795 0 0 1 20 16.795 L 20 27.205 A 1.875 2.795 0 0 1 18.125 30 L 17.875 30 A 1.875 2.795 0 0 1 16 27.205 L 16 16.795 A 1.875 2.795 0 0 1 17.875 14 Z" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M 29.2 14 C 27.649 14 26 15.235 26 16.769 l 0 3.234 C 20.805 21.645 17.4 26.231 16 29 C 14.6 26.231 6 25 6 25 l 0 7 l -2 0 l 0 8 l 2 0 l 0 6 c -0.055 0 8.6 -1.231 10 -4 c 1.4 2.769 9 8 20.2 8 C 47.4 50 60 43.946 60 34.769 C 59.988 28.248 54.512 22.683 46 19.997 l 0 -3.228 C 46 15.235 44.751 14 43.2 14 Z" />
 </vector>

@@ -1,4 +1,4 @@
-package app.symfonium.iconpack.sample;
+package app.symfonium.iconpack.materialsymbols;
 
 import android.app.Service;
 import android.content.Intent;

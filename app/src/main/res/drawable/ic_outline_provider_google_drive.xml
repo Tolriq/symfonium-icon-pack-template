@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Source: Symfonium fallback rounded/GoogleDrive.kt -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="50"
+    android:viewportHeight="50">
     <path
-        android:fillColor="@android:color/transparent"
-        android:pathData="M12,4L20,12L12,20L4,12L12,4Z"
-        android:strokeColor="#FF000000"
-        android:strokeLineJoin="round"
-        android:strokeWidth="2" />
+        android:fillColor="#FF000000"
+        android:pathData="M 45.58 31 H 32.61 L 19.73 6 h 10.754 c 0.726 0 1.394 0.393 1.747 1.027 L 45.58 31 Z M 23.37 17.43 L 9.94 43.2 L 3.482 33.04 c -0.395 -0.622 -0.417 -1.411 -0.055 -2.053 L 17.48 6 L 23.37 17.43 Z M 45.54 33 l -6.401 10.073 C 38.772 43.65 38.136 44 37.451 44 H 11.78 l 5.73 -11 H 45.54 Z" />
 </vector>

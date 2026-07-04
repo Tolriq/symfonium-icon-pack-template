@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SymfoniumIconPackSample"
+rootProject.name = "SymfoniumIconPack"
 include(":app")
 

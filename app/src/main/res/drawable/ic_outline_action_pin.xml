@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Source: Symfonium fallback rounded/PushPin.kt -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="960"
+    android:viewportHeight="960">
     <path
-        android:fillColor="@android:color/transparent"
-        android:pathData="M12,4L20,12L12,20L4,12L12,4Z"
-        android:strokeColor="#FF000000"
-        android:strokeLineJoin="round"
-        android:strokeWidth="2" />
+        android:fillColor="#FF000000"
+        android:pathData="m 634 512 l 86 77 v 60 L 510 649 v 241 l -30 30 l -30 -30 v -241 L 240 649 v -60 l 80 -77 v -332 h -50 v -60 h 414 v 60 h -50 v 332 Z M 321 589 h 312 l -59 -55 v -354 L 380 180 v 354 l -59 55 Z M 477 589 Z" />
 </vector>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <symfonium-icon-pack version="1">
-    <pack id="filled" label="Filled">
+    <pack id="rounded-filled" label="Material Rounded Filled">
         <icon key="action.add" drawable="@drawable/ic_filled_action_add" />
         <icon key="action.shortcut.add" drawable="@drawable/ic_filled_action_shortcut_add" />
         <icon key="action.home.add" drawable="@drawable/ic_filled_action_home_add" />
@@ -363,7 +363,7 @@
         <icon key="system.wifi" drawable="@drawable/ic_filled_system_wifi" />
         <icon key="system.wifi.signal" drawable="@drawable/ic_filled_system_wifi_signal" />
     </pack>
-    <pack id="outline" label="Outline">
+    <pack id="rounded" label="Material Rounded">
         <icon key="action.add" drawable="@drawable/ic_outline_action_add" />
         <icon key="action.shortcut.add" drawable="@drawable/ic_outline_action_shortcut_add" />
         <icon key="action.home.add" drawable="@drawable/ic_outline_action_home_add" />

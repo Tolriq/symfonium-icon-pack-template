@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Source: Symfonium fallback rounded/Insights.kt -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="960"
+    android:viewportHeight="960">
     <path
-        android:fillColor="@android:color/transparent"
-        android:pathData="M12,4L20,12L12,20L4,12L12,4Z"
-        android:strokeColor="#FF000000"
-        android:strokeLineJoin="round"
-        android:strokeWidth="2" />
+        android:fillColor="#FF000000"
+        android:pathData="M 109.91 810 Q 81 810 60.5 789.41 Q 40 768.82 40 739.91 Q 40 711 60.49 690.5 t 49.27 -20.5 q 5.23 0 10.23 0.5 q 5 0.5 13 2.5 l 200 -200 q -2 -8 -2.5 -13 t -0.5 -10.23 q 0 -28.78 20.59 -49.27 Q 371.18 380 400.09 380 Q 429 380 449.5 400.63 t 20.5 49.61 Q 470 452 467 473 l 110 110 q 8 -2 13 -2.5 t 10 -0.5 q 5 0 10 0.5 t 13 2.5 l 160 -160 q -2 -8 -2.5 -13 t -0.5 -10.23 q 0 -28.78 20.59 -49.27 Q 821.18 330 850.09 330 Q 879 330 899.5 350.59 q 20.5 20.59 20.5 49.5 Q 920 429 899.51 449.5 T 850.23 470 Q 845 470 840 469.5 q -5 -0.5 -13 -2.5 L 667 627 q 2 8 2.5 13 t 0.5 10.23 q 0 28.78 -20.59 49.27 Q 628.82 720 599.91 720 Q 571 720 550.5 699.51 T 530 650.23 q 0 -5.23 0.5 -10.23 q 0.5 -5 2.5 -13 L 423 517 q -8 2 -13 2.5 t -10.25 0.5 q -1.75 0 -22.75 -3 L 177 717 q 2 8 2.5 13 t 0.5 10.23 q 0 28.78 -20.59 49.27 Q 138.82 810 109.91 810 Z M 160 368 l -20.25 -43.75 L 96 304 l 43.75 -20.25 L 160 240 l 20.25 43.75 L 224 304 l -43.75 20.25 L 160 368 Z M 600 317 L 569.28 250.72 L 503 220 l 66.28 -30.72 L 600 123 l 30.72 66.28 L 697 220 l -66.28 30.72 L 600 317 Z" />
 </vector>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Source: Symfonium fallback rounded/ScreenRotation.kt -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="960"
+    android:viewportHeight="960">
     <path
         android:fillColor="#FF000000"
-        android:pathData="M12,4L20,12L12,20L4,12L12,4Z" />
+        android:pathData="M 516 769 L 191 444 q -18 -20 -18 -46 t 18 -46 l 166 -165 q 18 -20 44.99 -20 T 449 187 l 325 325 q 19 19 19 46 t -19 46 L 608 769 q -18 20 -44.99 20 T 516 769 Z M 562 730 L 734 558 L 403 226 L 231 398 L 562 730 Z M 483 478 Z M 530 68 L 637 175 q 9 9 9 21 t -9 21 q -9 9 -21.5 9 t -21.5 -9 L 419 43 q -11 -11 -6 -24 t 18.71 -16 q 11.29 -2 23.29 -2.5 t 23 -0.5 q 100 0 187.5 38 t 153 103.5 Q 884 207 922 294.5 T 960 482 q 0 12.75 -8.68 21.38 q -8.68 8.63 -21.5 8.63 q -12.82 0 -21.33 -8.63 T 900 482 q 0 -80 -28 -151.5 T 794.5 203 Q 745 147 677 111.5 T 530 68 Z M 433 894 L 324 785 q -9 -9 -8.5 -21 t 9.5 -21 q 9 -9 21.5 -9 t 21.5 9 L 540 915 q 11 11 6 25.5 T 526 958 q -12.44 2 -24 2.5 T 478 961 q -98.51 0 -185.58 -37.5 q -87.07 -37.5 -152.24 -103 Q 75 755 37.5 667.82 Q 0 580.64 0 482 q 0 -12.75 8.68 -21.38 Q 17.35 452 30.17 452 Q 43 452 51.5 460.63 T 60 482 q 0 80 28.5 151.5 t 78.5 127 Q 217 816 285.5 851 T 433 894 Z" />
 </vector>

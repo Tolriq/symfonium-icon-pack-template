@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Source: Symfonium fallback rounded/OneDrive.kt -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="192"
+    android:viewportHeight="192">
     <path
         android:fillColor="#FF000000"
-        android:pathData="M12,4L20,12L12,20L4,12L12,4Z" />
+        android:pathData="M 64.966 70.75 C 72.011 60.625 83.732 54 97 54 c 17.905 0 32.992 12.066 37.573 28.51 l 12.828 2.647 C 143.628 60.714 122.499 42 97 42 c -21.317 0 -39.579 13.078 -47.2 31.649 l 15.166 -2.9 Z" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M 167.531 125.759 L 76.998 74.898 C 52.39 61.073 22 78.858 22 107.083 a 36.75 36.75 0 0 0 6.718 21.24 m 138.813 -2.564 C 162.89 136.49 152.209 144 139.773 144 H 58.917 c -12.482 0 -23.517 -6.195 -30.199 -15.677 m 138.813 -2.564 A 30.146 30.146 0 0 0 170 113.773 c 0 -21.683 -22.155 -36.313 -42.096 -27.8 l -99.186 42.35" />
 </vector>

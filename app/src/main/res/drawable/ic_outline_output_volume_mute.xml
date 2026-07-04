@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Source: @material-symbols/svg-400@0.45.5 rounded/volume_mute.svg -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
-    <path
-        android:fillColor="@android:color/transparent"
-        android:pathData="M12,4L20,12L12,20L4,12L12,4Z"
-        android:strokeColor="#FF000000"
-        android:strokeLineJoin="round"
-        android:strokeWidth="2" />
+    android:viewportWidth="960"
+    android:viewportHeight="960">
+    <group
+        android:translateY="960">
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M440-360H310q-13 0-21.5-8.5T280-390v-180q0-13 8.5-21.5T310-600h130l149-149q14-14 32.5-6.5T640-728v496q0 20-18.5 27.5T589-211L440-360Zm-100-60h127l113 109v-337L467-540H340v120Zm119-60Z" />
+    </group>
 </vector>

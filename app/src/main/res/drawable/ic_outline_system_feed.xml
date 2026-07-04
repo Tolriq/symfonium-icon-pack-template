@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Source: Symfonium fallback rounded/Feed.kt -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="960"
+    android:viewportHeight="960">
     <path
-        android:fillColor="@android:color/transparent"
-        android:pathData="M12,4L20,12L12,20L4,12L12,4Z"
-        android:strokeColor="#FF000000"
-        android:strokeLineJoin="round"
-        android:strokeWidth="2" />
+        android:fillColor="#FF000000"
+        android:pathData="M 180 840 q -24 0 -42 -18 t -18 -42 v -600 q 0 -24 18 -42 t 42 -18 h 437 q 12.44 0 23.72 5 T 660 138 l 162 162 q 8 8 13 19.28 q 5 11.28 5 23.72 v 437 q 0 24 -18 42 t -42 18 L 180 840 Z M 180 780 h 600 v -429 L 639 351 q -12.75 0 -21.38 -8.63 T 609 321 v -141 L 180 180 v 600 Z M 651 669 q 12.75 0 21.38 -8.68 q 8.63 -8.68 8.63 -21.5 q 0 -12.82 -8.63 -21.33 T 651 609 L 309 609 q -12.75 0 -21.38 8.68 q -8.63 8.68 -8.63 21.5 q 0 12.82 8.63 21.33 T 309 669 h 342 Z M 450 351 q 12.75 0 21.38 -8.68 q 8.63 -8.68 8.63 -21.5 q 0 -12.82 -8.63 -21.33 T 450 291 L 309 291 q -12.75 0 -21.38 8.68 q -8.63 8.68 -8.63 21.5 q 0 12.82 8.63 21.33 T 309 351 h 141 Z M 651 510 q 12.75 0 21.38 -8.68 q 8.63 -8.68 8.63 -21.5 q 0 -12.82 -8.63 -21.33 T 651 450 L 309 450 q -12.75 0 -21.38 8.68 q -8.63 8.68 -8.63 21.5 q 0 12.82 8.63 21.33 T 309 510 h 342 Z M 180 180 v 171.43 L 180 180 v 600 v -600 Z" />
 </vector>

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "app.symfonium.iconpack.sample"
+    namespace = "app.symfonium.iconpack.materialsymbols"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "app.symfonium.iconpack.sample"
+        applicationId = "app.symfonium.iconpack.materialsymbols"
         minSdk = 23
         targetSdk = 36
         versionCode = 1

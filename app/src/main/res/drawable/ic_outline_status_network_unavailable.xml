@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Source: Symfonium fallback rounded/SignalCellularConnectedNoInternet0Bar.kt -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="960"
+    android:viewportHeight="960">
     <path
-        android:fillColor="@android:color/transparent"
-        android:pathData="M12,4L20,12L12,20L4,12L12,4Z"
-        android:strokeColor="#FF000000"
-        android:strokeLineJoin="round"
-        android:strokeWidth="2" />
+        android:fillColor="#FF000000"
+        android:pathData="M 760 820 v 60 L 80 880 l 800 -800 v 259 h -60 v -114 L 224 820 h 536 Z M 849.83 760 Q 837 760 828.5 751.38 T 820 730 v -301 q 0 -12.75 8.68 -21.38 q 8.68 -8.63 21.5 -8.63 q 12.82 0 21.33 8.63 T 880 429 v 301 q 0 12.75 -8.68 21.38 q -8.68 8.63 -21.5 8.63 Z M 850 880 q -12 0 -21 -9 t -9 -21 q 0 -12 9 -21 t 21 -9 q 12 0 21 9 t 9 21 q 0 12 -9 21 t -21 9 Z" />
 </vector>

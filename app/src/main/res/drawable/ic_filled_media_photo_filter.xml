@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Source: Symfonium fallback rounded/PhotoFilter.kt -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="960"
+    android:viewportHeight="960">
     <path
         android:fillColor="#FF000000"
-        android:pathData="M12,4L20,12L12,20L4,12L12,4Z" />
+        android:pathData="M 180 840 q -24 0 -42 -18 t -18 -42 v -600 q 0 -24 18 -42 t 42 -18 h 365 q 12.75 0 21.38 8.68 q 8.63 8.68 8.63 21.5 q 0 12.82 -8.63 21.33 T 545 180 L 180 180 v 600 h 600 v -365 q 0 -12.75 8.68 -21.38 q 8.68 -8.63 21.5 -8.63 q 12.82 0 21.33 8.63 T 840 415 v 365 q 0 24 -18 42 t -42 18 L 180 840 Z M 430.75 527.25 L 338 485 q -5 -2.4 -5 -7.2 q 0 -4.8 5 -6.8 l 92.75 -42.25 L 473 336 q 2.4 -5 7.2 -5 q 4.8 0 6.8 5 l 42.25 92.75 L 622 471 q 5 2.4 5 7.2 q 0 4.8 -5 6.8 l -92.75 42.25 L 487 620 q -2.4 5 -7.2 5 q -4.8 0 -6.8 -5 l -42.25 -92.75 Z M 648 312 l -63 -31 q -5 -2.4 -5 -7.2 q 0 -4.8 5 -6.8 l 63 -31 l 31 -63 q 2.4 -5 7.2 -5 q 4.8 0 6.8 5 l 31 63 l 63 31 q 5 2.4 5 7.2 q 0 4.8 -5 6.8 l -63 31 l -31 63 q -2.4 5 -7.2 5 q -4.8 0 -6.8 -5 l -31 -63 Z" />
 </vector>
