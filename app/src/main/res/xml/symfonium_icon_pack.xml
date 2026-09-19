@@ -223,10 +223,10 @@
         <icon key="playback.lyrics.filled" drawable="@drawable/ic_filled_playback_lyrics_filled" />
         <icon key="playback.next" drawable="@drawable/ic_filled_playback_next" />
         <icon key="playback.chapter.next" drawable="@drawable/ic_filled_playback_chapter_next" />
-        <icon key="playback.pause" drawable="@drawable/ic_filled_playback_pause" />
+        <icon key="playback.pause" drawable="@drawable/ic_filled_playback_pause_filled" />
         <icon key="playback.pause.filled" drawable="@drawable/ic_filled_playback_pause_filled" />
         <icon key="playback.personal.mix" drawable="@drawable/ic_filled_playback_personal_mix" />
-        <icon key="playback.play" drawable="@drawable/ic_filled_playback_play" />
+        <icon key="playback.play" drawable="@drawable/ic_filled_playback_play_filled" />
         <icon key="playback.play.circle" drawable="@drawable/ic_filled_playback_play_circle" />
         <icon key="playback.play.filled" drawable="@drawable/ic_filled_playback_play_filled" />
         <icon key="playback.playlist.play" drawable="@drawable/ic_filled_playback_playlist_play" />

@@ -9,7 +9,7 @@ The APK contains only resources and a metadata-only discovery service. Symfonium
 This project ships two full packs in the same APK. Both map every icon key currently exposed by the Symfonium external icon API (361 keys):
 
 - `rounded` / `Material Rounded`: Material Symbols rounded, fill 0 by default. Explicit `.selected` and `.filled` state keys use filled glyphs where available.
-- `rounded-filled` / `Material Rounded Filled`: Material Symbols rounded, fill 1 by default. Selected/unselected pairs intentionally use the same filled style, while explicit state pairs such as `.filled`, `.on`, and `.active` keep distinct off/on or idle/active artwork.
+- `rounded-filled` / `Material Rounded Filled`: Material Symbols rounded, fill 1 by default. Selected/unselected pairs intentionally use the same filled style, while explicit state pairs such as `.filled`, `.on`, and `.active` keep distinct off/on or idle/active artwork. Play/pause base keys and their `.filled` variants both use filled artwork because they identify different UI usages, not off/on states.
 
 The generated drawables come from `@material-symbols/svg-400@0.45.5` using `rounded/*.svg` and `rounded/*-fill.svg`. Provider logos and Material symbols that are not present in that package use Symfonium's existing fallback vector paths.
 
@@ -58,7 +58,7 @@ Most icon-pack authors only need to edit these files:
 - `app/src/main/res/values/strings.xml`: app name and display label.
 - `app/build.gradle.kts`: application id, version code, and version name.
 
-Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. Keep explicit state pairs separate from their base keys unless your icon style has no meaningful state distinction.
+Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. Keep explicit state pairs separate from their base keys unless your icon style has no meaningful state distinction. The main Now Playing controls use `playback.play` and `playback.pause`; their `.filled` variants are used on other playback controls, so a filled-style pack should provide filled artwork for both.
 
 You can remove mappings you do not want to override; Symfonium will use its built-in icon for missing keys.
 
@@ -82,7 +82,7 @@ The map XML wraps every selectable pack in a `<pack>` element:
 ```xml
 <symfonium-icon-pack version="1">
     <pack id="rounded-filled" label="Material Rounded Filled">
-        <icon key="playback.play" drawable="@drawable/ic_filled_playback_play" />
+        <icon key="playback.play" drawable="@drawable/ic_filled_playback_play_filled" />
     </pack>
     <pack id="rounded" label="Material Rounded">
         <icon key="playback.play" drawable="@drawable/ic_outline_playback_play" />

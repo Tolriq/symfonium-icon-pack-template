@@ -59,7 +59,7 @@ Edit `app/src/main/res/xml/symfonium_icon_pack.xml`.
 
 Only mapped keys are replaced. A pack with just a couple of `<icon>` entries is valid. If a key is missing, Symfonium uses its built-in icon.
 
-Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. Keep explicit state pairs separate from their base keys unless your icon style has no meaningful state distinction. A filled-style pack can still map selected/unselected navigation states to filled artwork.
+Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. Keep explicit state pairs separate from their base keys unless your icon style has no meaningful state distinction. A filled-style pack can still map selected/unselected navigation states to filled artwork. The main Now Playing controls use `playback.play` and `playback.pause`, while other playback controls use their `.filled` variants. These are different UI usages, not off/on states; provide filled artwork for both in a filled-style pack.
 
 Invalid keys, invalid drawables, invalid pack ids, and icons outside a `<pack>` element are ignored by Symfonium.
 

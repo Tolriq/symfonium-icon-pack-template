@@ -4,7 +4,7 @@ These are the icon keys supported by the current Symfonium external icon-pack co
 
 Both bundled Material packs map every key below (361 keys). The filled pack uses `@drawable/ic_filled_*`; the rounded pack uses `@drawable/ic_outline_*`. You can delete mappings you do not want to override; Symfonium falls back to its built-in icon for missing keys.
 
-Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. The bundled filled pack maps selected/unselected pairs to filled artwork, but keeps explicit state pairs distinct.
+Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. The bundled filled pack maps selected/unselected pairs to filled artwork, but keeps explicit state pairs distinct. The `playback.play` and `playback.pause` base keys used by the main Now Playing controls share filled artwork with their `.filled` variants, which represent different UI usages rather than off/on states.
 
 | Key | Filled drawable | Rounded drawable | Meaning |
 | --- | --- | --- | --- |
@@ -230,10 +230,10 @@ Keys ending in `.selected` are selected tab or selected navigation state variant
 | `playback.lyrics.filled` | `@drawable/ic_filled_playback_lyrics_filled` | `@drawable/ic_outline_playback_lyrics_filled` | Playback control, queue, mode, or playback state |
 | `playback.next` | `@drawable/ic_filled_playback_next` | `@drawable/ic_outline_playback_next` | Playback control, queue, mode, or playback state |
 | `playback.chapter.next` | `@drawable/ic_filled_playback_chapter_next` | `@drawable/ic_outline_playback_chapter_next` | Playback control, queue, mode, or playback state |
-| `playback.pause` | `@drawable/ic_filled_playback_pause` | `@drawable/ic_outline_playback_pause` | Playback control, queue, mode, or playback state |
+| `playback.pause` | `@drawable/ic_filled_playback_pause_filled` | `@drawable/ic_outline_playback_pause` | Playback control, queue, mode, or playback state |
 | `playback.pause.filled` | `@drawable/ic_filled_playback_pause_filled` | `@drawable/ic_outline_playback_pause_filled` | Playback control, queue, mode, or playback state |
 | `playback.personal.mix` | `@drawable/ic_filled_playback_personal_mix` | `@drawable/ic_outline_playback_personal_mix` | Playback control, queue, mode, or playback state |
-| `playback.play` | `@drawable/ic_filled_playback_play` | `@drawable/ic_outline_playback_play` | Playback control, queue, mode, or playback state |
+| `playback.play` | `@drawable/ic_filled_playback_play_filled` | `@drawable/ic_outline_playback_play` | Playback control, queue, mode, or playback state |
 | `playback.play.circle` | `@drawable/ic_filled_playback_play_circle` | `@drawable/ic_outline_playback_play_circle` | Playback control, queue, mode, or playback state |
 | `playback.play.filled` | `@drawable/ic_filled_playback_play_filled` | `@drawable/ic_outline_playback_play_filled` | Playback control, queue, mode, or playback state |
 | `playback.playlist.play` | `@drawable/ic_filled_playback_playlist_play` | `@drawable/ic_outline_playback_playlist_play` | Playback control, queue, mode, or playback state |
