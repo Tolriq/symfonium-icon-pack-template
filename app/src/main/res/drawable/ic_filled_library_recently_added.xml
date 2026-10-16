@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Source: Symfonium fallback rounded/NewReleases.kt -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M 437 527 l -73 -76 q -9 -10 -22 -10 t -23 9 q -10 10 -10 23 t 10 23 l 97 96 q 9 9 21 9 t 21 -9 l 183 -182 q 9 -9 9 -22 t -10 -22 q -9 -8 -21.5 -7.5 T 598 367 L 437 527 Z M 332 876 l -62 -106 l -124 -25 q -11 -2 -18.5 -12 t -5.5 -21 l 14 -120 l -79 -92 q -8 -8 -8 -20 t 8 -20 l 79 -91 l -14 -120 q -2 -11 5.5 -21 t 18.5 -12 l 124 -25 l 62 -107 q 6 -10 17 -14 t 22 1 l 109 51 l 109 -51 q 11 -5 22 -1.5 t 17 13.5 l 63 108 l 123 25 q 11 2 18.5 12 t 5.5 21 l -14 120 l 79 91 q 8 8 8 20 t -8 20 l -79 92 l 14 120 q 2 11 -5.5 21 T 814 745 l -123 25 l -63 107 q -6 10 -17 13.5 T 589 889 l -109 -51 l -109 51 q -11 5 -22 1 t -17 -14 Z M 373 821 l 107 -45 l 110 45 l 67 -100 l 117 -30 l -12 -119 l 81 -92 l -81 -94 l 12 -119 l -117 -28 l -69 -100 l -108 45 l -110 -45 l -67 100 l -117 28 l 12 119 l -81 94 l 81 92 l -12 121 l 117 28 l 70 100 Z M 480 480 Z" />
+</vector>

@@ -32,13 +32,17 @@
         <icon key="action.lock" drawable="@drawable/ic_filled_action_lock" />
         <icon key="action.more" drawable="@drawable/ic_filled_action_more" />
         <icon key="action.more.horizontal" drawable="@drawable/ic_filled_action_more_horizontal" />
-        <icon key="action.move.down" drawable="@drawable/ic_filled_action_move_down" />
-        <icon key="action.move.up" drawable="@drawable/ic_filled_action_move_up" />
         <icon key="action.details" drawable="@drawable/ic_filled_action_details" />
+        <icon key="action.duplicates.remove" drawable="@drawable/ic_filled_action_duplicates_remove" />
         <icon key="action.open.externally" drawable="@drawable/ic_filled_action_open_externally" />
         <icon key="action.pin" drawable="@drawable/ic_filled_action_pin" />
+        <icon key="action.play.history.reset" drawable="@drawable/ic_filled_action_play_history_reset" />
+        <icon key="action.played.mark" drawable="@drawable/ic_filled_action_played_mark" />
+        <icon key="action.playlist.create" drawable="@drawable/ic_filled_action_playlist_create" />
+        <icon key="action.playlist.open" drawable="@drawable/ic_filled_action_playlist_open" />
         <icon key="action.queue.add" drawable="@drawable/ic_filled_action_queue_add" />
         <icon key="action.queue.next" drawable="@drawable/ic_filled_action_queue_next" />
+        <icon key="action.refresh" drawable="@drawable/ic_filled_action_refresh" />
         <icon key="action.remove" drawable="@drawable/ic_filled_action_remove" />
         <icon key="action.selection.remove" drawable="@drawable/ic_filled_action_selection_remove" />
         <icon key="action.reorder" drawable="@drawable/ic_filled_action_reorder" />
@@ -51,6 +55,7 @@
         <icon key="action.share" drawable="@drawable/ic_filled_action_share" />
         <icon key="action.share.file" drawable="@drawable/ic_filled_action_share_file" />
         <icon key="action.shuffle" drawable="@drawable/ic_filled_action_shuffle" />
+        <icon key="action.skip.history.reset" drawable="@drawable/ic_filled_action_skip_history_reset" />
         <icon key="action.sort" drawable="@drawable/ic_filled_action_sort" />
         <icon key="action.sort.alpha" drawable="@drawable/ic_filled_action_sort_alpha" />
         <icon key="action.sort.direction.down" drawable="@drawable/ic_filled_action_sort_direction_down" />
@@ -64,6 +69,8 @@
         <icon key="action.visibility.filled" drawable="@drawable/ic_filled_action_visibility_filled" />
         <icon key="action.visibility.off" drawable="@drawable/ic_filled_action_visibility_off" />
         <icon key="action.visibility.off.filled" drawable="@drawable/ic_filled_action_visibility_off_filled" />
+        <icon key="interface.align.left" drawable="@drawable/ic_filled_interface_align_left" />
+        <icon key="interface.black.mode" drawable="@drawable/ic_filled_interface_black_mode" />
         <icon key="interface.chevron.right" drawable="@drawable/ic_filled_interface_chevron_right" />
         <icon key="interface.color.fill" drawable="@drawable/ic_filled_interface_color_fill" />
         <icon key="interface.color.picker" drawable="@drawable/ic_filled_interface_color_picker" />
@@ -74,7 +81,9 @@
         <icon key="interface.crop.square" drawable="@drawable/ic_filled_interface_crop_square" />
         <icon key="interface.dark.mode" drawable="@drawable/ic_filled_interface_dark_mode" />
         <icon key="interface.display.cutout" drawable="@drawable/ic_filled_interface_display_cutout" />
+        <icon key="interface.display.foldable" drawable="@drawable/ic_filled_interface_display_foldable" />
         <icon key="interface.dropdown" drawable="@drawable/ic_filled_interface_dropdown" />
+        <icon key="interface.eink" drawable="@drawable/ic_filled_interface_eink" />
         <icon key="interface.expand" drawable="@drawable/ic_filled_interface_expand" />
         <icon key="interface.filter" drawable="@drawable/ic_filled_interface_filter" />
         <icon key="interface.filter.filled" drawable="@drawable/ic_filled_interface_filter_filled" />
@@ -82,6 +91,7 @@
         <icon key="interface.font.size" drawable="@drawable/ic_filled_interface_font_size" />
         <icon key="interface.gradient" drawable="@drawable/ic_filled_interface_gradient" />
         <icon key="interface.grid" drawable="@drawable/ic_filled_interface_grid" />
+        <icon key="interface.icon.size" drawable="@drawable/ic_filled_interface_icon_size" />
         <icon key="interface.image.aspect.ratio" drawable="@drawable/ic_filled_interface_image_aspect_ratio" />
         <icon key="interface.light.mode" drawable="@drawable/ic_filled_interface_light_mode" />
         <icon key="interface.list" drawable="@drawable/ic_filled_interface_list" />
@@ -89,7 +99,9 @@
         <icon key="interface.list.numbered" drawable="@drawable/ic_filled_interface_list_numbered" />
         <icon key="interface.overscan" drawable="@drawable/ic_filled_interface_overscan" />
         <icon key="interface.palette" drawable="@drawable/ic_filled_interface_palette" />
+        <icon key="interface.screen.on" drawable="@drawable/ic_filled_interface_screen_on" />
         <icon key="interface.screen.rotation" drawable="@drawable/ic_filled_interface_screen_rotation" />
+        <icon key="interface.search.recent" drawable="@drawable/ic_filled_interface_search_recent" />
         <icon key="interface.space" drawable="@drawable/ic_filled_interface_space" />
         <icon key="interface.swipe.left" drawable="@drawable/ic_filled_interface_swipe_left" />
         <icon key="interface.swipe.right" drawable="@drawable/ic_filled_interface_swipe_right" />
@@ -142,6 +154,7 @@
         <icon key="library.occasions.selected" drawable="@drawable/ic_filled_library_occasions_selected" />
         <icon key="library.playlists" drawable="@drawable/ic_filled_library_playlists" />
         <icon key="library.playlists.selected" drawable="@drawable/ic_filled_library_playlists_selected" />
+        <icon key="library.recently.added" drawable="@drawable/ic_filled_library_recently_added" />
         <icon key="library.song.tags" drawable="@drawable/ic_filled_library_song_tags" />
         <icon key="library.song.tags.selected" drawable="@drawable/ic_filled_library_song_tags_selected" />
         <icon key="library.song.moods" drawable="@drawable/ic_filled_library_song_moods" />
@@ -158,6 +171,7 @@
         <icon key="media.album.filled" drawable="@drawable/ic_filled_media_album_filled" />
         <icon key="media.artist" drawable="@drawable/ic_filled_media_artist" />
         <icon key="media.artist.image" drawable="@drawable/ic_filled_media_artist_image" />
+        <icon key="media.bpm" drawable="@drawable/ic_filled_media_bpm" />
         <icon key="media.composer" drawable="@drawable/ic_filled_media_composer" />
         <icon key="media.file" drawable="@drawable/ic_filled_media_file" />
         <icon key="media.file.present" drawable="@drawable/ic_filled_media_file_present" />
@@ -166,7 +180,6 @@
         <icon key="media.grouping" drawable="@drawable/ic_filled_media_grouping" />
         <icon key="media.image" drawable="@drawable/ic_filled_media_image" />
         <icon key="media.internet.radio" drawable="@drawable/ic_filled_media_internet_radio" />
-        <icon key="media.internet.radio.filled" drawable="@drawable/ic_filled_media_internet_radio_filled" />
         <icon key="media.label" drawable="@drawable/ic_filled_media_label" />
         <icon key="media.lyrics" drawable="@drawable/ic_filled_media_lyrics" />
         <icon key="media.type" drawable="@drawable/ic_filled_media_type" />
@@ -178,7 +191,6 @@
         <icon key="media.playlist.tag" drawable="@drawable/ic_filled_media_playlist_tag" />
         <icon key="media.metadata.tag" drawable="@drawable/ic_filled_media_metadata_tag" />
         <icon key="media.style" drawable="@drawable/ic_filled_media_style" />
-        <icon key="media.tag" drawable="@drawable/ic_filled_media_tag" />
         <icon key="media.track" drawable="@drawable/ic_filled_media_track" />
         <icon key="media.track.filled" drawable="@drawable/ic_filled_media_track_filled" />
         <icon key="navigation.back" drawable="@drawable/ic_filled_navigation_back" />
@@ -214,7 +226,6 @@
         <icon key="playback.chapters" drawable="@drawable/ic_filled_playback_chapters" />
         <icon key="playback.equalizer" drawable="@drawable/ic_filled_playback_equalizer" />
         <icon key="playback.equalizer.expert" drawable="@drawable/ic_filled_playback_equalizer_expert" />
-        <icon key="playback.forward" drawable="@drawable/ic_filled_playback_forward" />
         <icon key="playback.forward.media" drawable="@drawable/ic_filled_playback_forward_media" />
         <icon key="playback.forward.5" drawable="@drawable/ic_filled_playback_forward_5" />
         <icon key="playback.forward.10" drawable="@drawable/ic_filled_playback_forward_10" />
@@ -238,7 +249,6 @@
         <icon key="playback.queue.next" drawable="@drawable/ic_filled_playback_queue_next" />
         <icon key="playback.radio.mix" drawable="@drawable/ic_filled_playback_radio_mix" />
         <icon key="playback.radio.mix.button" drawable="@drawable/ic_filled_playback_radio_mix_button" />
-        <icon key="playback.radio.mix.filled" drawable="@drawable/ic_filled_playback_radio_mix_filled" />
         <icon key="playback.resume.point.remove" drawable="@drawable/ic_filled_playback_resume_point_remove" />
         <icon key="playback.repeat" drawable="@drawable/ic_filled_playback_repeat" />
         <icon key="playback.repeat.on" drawable="@drawable/ic_filled_playback_repeat_on" />
@@ -255,6 +265,7 @@
         <icon key="playback.sleep.timer.filled" drawable="@drawable/ic_filled_playback_sleep_timer_filled" />
         <icon key="playback.smart.flow" drawable="@drawable/ic_filled_playback_smart_flow" />
         <icon key="playback.smart.flow.button" drawable="@drawable/ic_filled_playback_smart_flow_button" />
+        <icon key="playback.smart.flow.filled" drawable="@drawable/ic_filled_playback_smart_flow_filled" />
         <icon key="playback.speed" drawable="@drawable/ic_filled_playback_speed" />
         <icon key="playback.stop" drawable="@drawable/ic_filled_playback_stop" />
         <icon key="playback.current.track" drawable="@drawable/ic_filled_playback_current_track" />
@@ -274,7 +285,6 @@
         <icon key="provider.subsonic" drawable="@drawable/ic_filled_provider_subsonic" />
         <icon key="provider.webdav" drawable="@drawable/ic_filled_provider_webdav" />
         <icon key="rating.half" drawable="@drawable/ic_filled_rating_half" />
-        <icon key="rating.one" drawable="@drawable/ic_filled_rating_one" />
         <icon key="rating.sentiment.dissatisfied" drawable="@drawable/ic_filled_rating_sentiment_dissatisfied" />
         <icon key="rating.sentiment.neutral" drawable="@drawable/ic_filled_rating_sentiment_neutral" />
         <icon key="rating.sentiment.satisfied" drawable="@drawable/ic_filled_rating_sentiment_satisfied" />
@@ -282,18 +292,25 @@
         <icon key="rating.star.filled" drawable="@drawable/ic_filled_rating_star_filled" />
         <icon key="rating.star.rate" drawable="@drawable/ic_filled_rating_star_rate" />
         <icon key="rating.stars" drawable="@drawable/ic_filled_rating_stars" />
-        <icon key="rating.three" drawable="@drawable/ic_filled_rating_three" />
-        <icon key="rating.two" drawable="@drawable/ic_filled_rating_two" />
+        <icon key="rating.thumb.down" drawable="@drawable/ic_filled_rating_thumb_down" />
+        <icon key="rating.thumb.up" drawable="@drawable/ic_filled_rating_thumb_up" />
+        <icon key="rating.thumbs.up.down" drawable="@drawable/ic_filled_rating_thumbs_up_down" />
         <icon key="settings.advanced" drawable="@drawable/ic_filled_settings_advanced" />
         <icon key="settings.auto" drawable="@drawable/ic_filled_settings_auto" />
+        <icon key="settings.auto.recent" drawable="@drawable/ic_filled_settings_auto_recent" />
         <icon key="settings.backup" drawable="@drawable/ic_filled_settings_backup" />
         <icon key="settings.cache" drawable="@drawable/ic_filled_settings_cache" />
         <icon key="settings.cache.general" drawable="@drawable/ic_filled_settings_cache_general" />
         <icon key="settings.cache.image" drawable="@drawable/ic_filled_settings_cache_image" />
         <icon key="settings.cache.media" drawable="@drawable/ic_filled_settings_cache_media" />
         <icon key="settings.cache.playback" drawable="@drawable/ic_filled_settings_cache_playback" />
+        <icon key="settings.cache.transcoding" drawable="@drawable/ic_filled_settings_cache_transcoding" />
+        <icon key="settings.crash.reporting" drawable="@drawable/ic_filled_settings_crash_reporting" />
+        <icon key="settings.database" drawable="@drawable/ic_filled_settings_database" />
         <icon key="settings.theme.custom" drawable="@drawable/ic_filled_settings_theme_custom" />
         <icon key="settings.donation" drawable="@drawable/ic_filled_settings_donation" />
+        <icon key="settings.http" drawable="@drawable/ic_filled_settings_http" />
+        <icon key="settings.icon.pack" drawable="@drawable/ic_filled_settings_icon_pack" />
         <icon key="settings.interface" drawable="@drawable/ic_filled_settings_interface" />
         <icon key="settings.interface.advanced" drawable="@drawable/ic_filled_settings_interface_advanced" />
         <icon key="settings.interface.album" drawable="@drawable/ic_filled_settings_interface_album" />
@@ -314,31 +331,38 @@
         <icon key="settings.playback.advanced" drawable="@drawable/ic_filled_settings_playback_advanced" />
         <icon key="settings.playback.automatic" drawable="@drawable/ic_filled_settings_playback_automatic" />
         <icon key="settings.playback.buttons" drawable="@drawable/ic_filled_settings_playback_buttons" />
+        <icon key="settings.playback.buttons.click.one" drawable="@drawable/ic_filled_settings_playback_buttons_click_one" />
+        <icon key="settings.playback.buttons.click.three" drawable="@drawable/ic_filled_settings_playback_buttons_click_three" />
+        <icon key="settings.playback.buttons.click.two" drawable="@drawable/ic_filled_settings_playback_buttons_click_two" />
+        <icon key="settings.playback.buttons.slow" drawable="@drawable/ic_filled_settings_playback_buttons_slow" />
         <icon key="settings.playback.decoding" drawable="@drawable/ic_filled_settings_playback_decoding" />
         <icon key="settings.playback.focus" drawable="@drawable/ic_filled_settings_playback_focus" />
         <icon key="settings.playback.general" drawable="@drawable/ic_filled_settings_playback_general" />
+        <icon key="settings.playback.history" drawable="@drawable/ic_filled_settings_playback_history" />
+        <icon key="settings.playback.last.played" drawable="@drawable/ic_filled_settings_playback_last_played" />
         <icon key="settings.playback.progress" drawable="@drawable/ic_filled_settings_playback_progress" />
         <icon key="settings.playback.session" drawable="@drawable/ic_filled_settings_playback_session" />
         <icon key="settings.playback.transitions" drawable="@drawable/ic_filled_settings_playback_transitions" />
+        <icon key="settings.playback.transitions.smart" drawable="@drawable/ic_filled_settings_playback_transitions_smart" />
         <icon key="settings.restore.default" drawable="@drawable/ic_filled_settings_restore_default" />
         <icon key="settings.sync.manager" drawable="@drawable/ic_filled_settings_sync_manager" />
         <icon key="settings.theme" drawable="@drawable/ic_filled_settings_theme" />
         <icon key="settings.theme.import" drawable="@drawable/ic_filled_settings_theme_import" />
         <icon key="settings.translation" drawable="@drawable/ic_filled_settings_translation" />
+        <icon key="settings.waveform" drawable="@drawable/ic_filled_settings_waveform" />
         <icon key="settings.widgets" drawable="@drawable/ic_filled_settings_widgets" />
+        <icon key="settings.widgets.shortcut.type" drawable="@drawable/ic_filled_settings_widgets_shortcut_type" />
         <icon key="status.check.circle" drawable="@drawable/ic_filled_status_check_circle" />
         <icon key="status.download.done" drawable="@drawable/ic_filled_status_download_done" />
         <icon key="status.downloading" drawable="@drawable/ic_filled_status_downloading" />
         <icon key="status.error" drawable="@drawable/ic_filled_status_error" />
         <icon key="status.favorite.filled" drawable="@drawable/ic_filled_status_favorite_filled" />
-        <icon key="status.network.unavailable" drawable="@drawable/ic_filled_status_network_unavailable" />
         <icon key="status.offline.available" drawable="@drawable/ic_filled_status_offline_available" />
         <icon key="status.offline.download" drawable="@drawable/ic_filled_status_offline_download" />
         <icon key="status.offline.missing" drawable="@drawable/ic_filled_status_offline_missing" />
         <icon key="status.offline.sync" drawable="@drawable/ic_filled_status_offline_sync" />
         <icon key="status.unselected" drawable="@drawable/ic_filled_status_unselected" />
         <icon key="status.warning" drawable="@drawable/ic_filled_status_warning" />
-        <icon key="system.adb" drawable="@drawable/ic_filled_system_adb" />
         <icon key="system.android" drawable="@drawable/ic_filled_system_android" />
         <icon key="system.architecture" drawable="@drawable/ic_filled_system_architecture" />
         <icon key="system.bug.report" drawable="@drawable/ic_filled_system_bug_report" />
@@ -360,6 +384,7 @@
         <icon key="system.signal" drawable="@drawable/ic_filled_system_signal" />
         <icon key="system.support.agent" drawable="@drawable/ic_filled_system_support_agent" />
         <icon key="system.toast" drawable="@drawable/ic_filled_system_toast" />
+        <icon key="system.version" drawable="@drawable/ic_filled_system_version" />
         <icon key="system.wifi" drawable="@drawable/ic_filled_system_wifi" />
         <icon key="system.wifi.signal" drawable="@drawable/ic_filled_system_wifi_signal" />
     </pack>
@@ -395,13 +420,17 @@
         <icon key="action.lock" drawable="@drawable/ic_outline_action_lock" />
         <icon key="action.more" drawable="@drawable/ic_outline_action_more" />
         <icon key="action.more.horizontal" drawable="@drawable/ic_outline_action_more_horizontal" />
-        <icon key="action.move.down" drawable="@drawable/ic_outline_action_move_down" />
-        <icon key="action.move.up" drawable="@drawable/ic_outline_action_move_up" />
         <icon key="action.details" drawable="@drawable/ic_outline_action_details" />
+        <icon key="action.duplicates.remove" drawable="@drawable/ic_outline_action_duplicates_remove" />
         <icon key="action.open.externally" drawable="@drawable/ic_outline_action_open_externally" />
         <icon key="action.pin" drawable="@drawable/ic_outline_action_pin" />
+        <icon key="action.play.history.reset" drawable="@drawable/ic_outline_action_play_history_reset" />
+        <icon key="action.played.mark" drawable="@drawable/ic_outline_action_played_mark" />
+        <icon key="action.playlist.create" drawable="@drawable/ic_outline_action_playlist_create" />
+        <icon key="action.playlist.open" drawable="@drawable/ic_outline_action_playlist_open" />
         <icon key="action.queue.add" drawable="@drawable/ic_outline_action_queue_add" />
         <icon key="action.queue.next" drawable="@drawable/ic_outline_action_queue_next" />
+        <icon key="action.refresh" drawable="@drawable/ic_outline_action_refresh" />
         <icon key="action.remove" drawable="@drawable/ic_outline_action_remove" />
         <icon key="action.selection.remove" drawable="@drawable/ic_outline_action_selection_remove" />
         <icon key="action.reorder" drawable="@drawable/ic_outline_action_reorder" />
@@ -414,6 +443,7 @@
         <icon key="action.share" drawable="@drawable/ic_outline_action_share" />
         <icon key="action.share.file" drawable="@drawable/ic_outline_action_share_file" />
         <icon key="action.shuffle" drawable="@drawable/ic_outline_action_shuffle" />
+        <icon key="action.skip.history.reset" drawable="@drawable/ic_outline_action_skip_history_reset" />
         <icon key="action.sort" drawable="@drawable/ic_outline_action_sort" />
         <icon key="action.sort.alpha" drawable="@drawable/ic_outline_action_sort_alpha" />
         <icon key="action.sort.direction.down" drawable="@drawable/ic_outline_action_sort_direction_down" />
@@ -427,6 +457,8 @@
         <icon key="action.visibility.filled" drawable="@drawable/ic_outline_action_visibility_filled" />
         <icon key="action.visibility.off" drawable="@drawable/ic_outline_action_visibility_off" />
         <icon key="action.visibility.off.filled" drawable="@drawable/ic_outline_action_visibility_off_filled" />
+        <icon key="interface.align.left" drawable="@drawable/ic_outline_interface_align_left" />
+        <icon key="interface.black.mode" drawable="@drawable/ic_outline_interface_black_mode" />
         <icon key="interface.chevron.right" drawable="@drawable/ic_outline_interface_chevron_right" />
         <icon key="interface.color.fill" drawable="@drawable/ic_outline_interface_color_fill" />
         <icon key="interface.color.picker" drawable="@drawable/ic_outline_interface_color_picker" />
@@ -437,7 +469,9 @@
         <icon key="interface.crop.square" drawable="@drawable/ic_outline_interface_crop_square" />
         <icon key="interface.dark.mode" drawable="@drawable/ic_outline_interface_dark_mode" />
         <icon key="interface.display.cutout" drawable="@drawable/ic_outline_interface_display_cutout" />
+        <icon key="interface.display.foldable" drawable="@drawable/ic_outline_interface_display_foldable" />
         <icon key="interface.dropdown" drawable="@drawable/ic_outline_interface_dropdown" />
+        <icon key="interface.eink" drawable="@drawable/ic_outline_interface_eink" />
         <icon key="interface.expand" drawable="@drawable/ic_outline_interface_expand" />
         <icon key="interface.filter" drawable="@drawable/ic_outline_interface_filter" />
         <icon key="interface.filter.filled" drawable="@drawable/ic_outline_interface_filter_filled" />
@@ -445,6 +479,7 @@
         <icon key="interface.font.size" drawable="@drawable/ic_outline_interface_font_size" />
         <icon key="interface.gradient" drawable="@drawable/ic_outline_interface_gradient" />
         <icon key="interface.grid" drawable="@drawable/ic_outline_interface_grid" />
+        <icon key="interface.icon.size" drawable="@drawable/ic_outline_interface_icon_size" />
         <icon key="interface.image.aspect.ratio" drawable="@drawable/ic_outline_interface_image_aspect_ratio" />
         <icon key="interface.light.mode" drawable="@drawable/ic_outline_interface_light_mode" />
         <icon key="interface.list" drawable="@drawable/ic_outline_interface_list" />
@@ -452,7 +487,9 @@
         <icon key="interface.list.numbered" drawable="@drawable/ic_outline_interface_list_numbered" />
         <icon key="interface.overscan" drawable="@drawable/ic_outline_interface_overscan" />
         <icon key="interface.palette" drawable="@drawable/ic_outline_interface_palette" />
+        <icon key="interface.screen.on" drawable="@drawable/ic_outline_interface_screen_on" />
         <icon key="interface.screen.rotation" drawable="@drawable/ic_outline_interface_screen_rotation" />
+        <icon key="interface.search.recent" drawable="@drawable/ic_outline_interface_search_recent" />
         <icon key="interface.space" drawable="@drawable/ic_outline_interface_space" />
         <icon key="interface.swipe.left" drawable="@drawable/ic_outline_interface_swipe_left" />
         <icon key="interface.swipe.right" drawable="@drawable/ic_outline_interface_swipe_right" />
@@ -505,6 +542,7 @@
         <icon key="library.occasions.selected" drawable="@drawable/ic_outline_library_occasions_selected" />
         <icon key="library.playlists" drawable="@drawable/ic_outline_library_playlists" />
         <icon key="library.playlists.selected" drawable="@drawable/ic_outline_library_playlists_selected" />
+        <icon key="library.recently.added" drawable="@drawable/ic_outline_library_recently_added" />
         <icon key="library.song.tags" drawable="@drawable/ic_outline_library_song_tags" />
         <icon key="library.song.tags.selected" drawable="@drawable/ic_outline_library_song_tags_selected" />
         <icon key="library.song.moods" drawable="@drawable/ic_outline_library_song_moods" />
@@ -521,6 +559,7 @@
         <icon key="media.album.filled" drawable="@drawable/ic_outline_media_album_filled" />
         <icon key="media.artist" drawable="@drawable/ic_outline_media_artist" />
         <icon key="media.artist.image" drawable="@drawable/ic_outline_media_artist_image" />
+        <icon key="media.bpm" drawable="@drawable/ic_outline_media_bpm" />
         <icon key="media.composer" drawable="@drawable/ic_outline_media_composer" />
         <icon key="media.file" drawable="@drawable/ic_outline_media_file" />
         <icon key="media.file.present" drawable="@drawable/ic_outline_media_file_present" />
@@ -529,7 +568,6 @@
         <icon key="media.grouping" drawable="@drawable/ic_outline_media_grouping" />
         <icon key="media.image" drawable="@drawable/ic_outline_media_image" />
         <icon key="media.internet.radio" drawable="@drawable/ic_outline_media_internet_radio" />
-        <icon key="media.internet.radio.filled" drawable="@drawable/ic_outline_media_internet_radio_filled" />
         <icon key="media.label" drawable="@drawable/ic_outline_media_label" />
         <icon key="media.lyrics" drawable="@drawable/ic_outline_media_lyrics" />
         <icon key="media.type" drawable="@drawable/ic_outline_media_type" />
@@ -541,7 +579,6 @@
         <icon key="media.playlist.tag" drawable="@drawable/ic_outline_media_playlist_tag" />
         <icon key="media.metadata.tag" drawable="@drawable/ic_outline_media_metadata_tag" />
         <icon key="media.style" drawable="@drawable/ic_outline_media_style" />
-        <icon key="media.tag" drawable="@drawable/ic_outline_media_tag" />
         <icon key="media.track" drawable="@drawable/ic_outline_media_track" />
         <icon key="media.track.filled" drawable="@drawable/ic_outline_media_track_filled" />
         <icon key="navigation.back" drawable="@drawable/ic_outline_navigation_back" />
@@ -577,7 +614,6 @@
         <icon key="playback.chapters" drawable="@drawable/ic_outline_playback_chapters" />
         <icon key="playback.equalizer" drawable="@drawable/ic_outline_playback_equalizer" />
         <icon key="playback.equalizer.expert" drawable="@drawable/ic_outline_playback_equalizer_expert" />
-        <icon key="playback.forward" drawable="@drawable/ic_outline_playback_forward" />
         <icon key="playback.forward.media" drawable="@drawable/ic_outline_playback_forward_media" />
         <icon key="playback.forward.5" drawable="@drawable/ic_outline_playback_forward_5" />
         <icon key="playback.forward.10" drawable="@drawable/ic_outline_playback_forward_10" />
@@ -601,7 +637,6 @@
         <icon key="playback.queue.next" drawable="@drawable/ic_outline_playback_queue_next" />
         <icon key="playback.radio.mix" drawable="@drawable/ic_outline_playback_radio_mix" />
         <icon key="playback.radio.mix.button" drawable="@drawable/ic_outline_playback_radio_mix_button" />
-        <icon key="playback.radio.mix.filled" drawable="@drawable/ic_outline_playback_radio_mix_filled" />
         <icon key="playback.resume.point.remove" drawable="@drawable/ic_outline_playback_resume_point_remove" />
         <icon key="playback.repeat" drawable="@drawable/ic_outline_playback_repeat" />
         <icon key="playback.repeat.on" drawable="@drawable/ic_outline_playback_repeat_on" />
@@ -618,6 +653,7 @@
         <icon key="playback.sleep.timer.filled" drawable="@drawable/ic_outline_playback_sleep_timer_filled" />
         <icon key="playback.smart.flow" drawable="@drawable/ic_outline_playback_smart_flow" />
         <icon key="playback.smart.flow.button" drawable="@drawable/ic_outline_playback_smart_flow_button" />
+        <icon key="playback.smart.flow.filled" drawable="@drawable/ic_outline_playback_smart_flow_filled" />
         <icon key="playback.speed" drawable="@drawable/ic_outline_playback_speed" />
         <icon key="playback.stop" drawable="@drawable/ic_outline_playback_stop" />
         <icon key="playback.current.track" drawable="@drawable/ic_outline_playback_current_track" />
@@ -637,7 +673,6 @@
         <icon key="provider.subsonic" drawable="@drawable/ic_outline_provider_subsonic" />
         <icon key="provider.webdav" drawable="@drawable/ic_outline_provider_webdav" />
         <icon key="rating.half" drawable="@drawable/ic_outline_rating_half" />
-        <icon key="rating.one" drawable="@drawable/ic_outline_rating_one" />
         <icon key="rating.sentiment.dissatisfied" drawable="@drawable/ic_outline_rating_sentiment_dissatisfied" />
         <icon key="rating.sentiment.neutral" drawable="@drawable/ic_outline_rating_sentiment_neutral" />
         <icon key="rating.sentiment.satisfied" drawable="@drawable/ic_outline_rating_sentiment_satisfied" />
@@ -645,18 +680,25 @@
         <icon key="rating.star.filled" drawable="@drawable/ic_outline_rating_star_filled" />
         <icon key="rating.star.rate" drawable="@drawable/ic_outline_rating_star_rate" />
         <icon key="rating.stars" drawable="@drawable/ic_outline_rating_stars" />
-        <icon key="rating.three" drawable="@drawable/ic_outline_rating_three" />
-        <icon key="rating.two" drawable="@drawable/ic_outline_rating_two" />
+        <icon key="rating.thumb.down" drawable="@drawable/ic_outline_rating_thumb_down" />
+        <icon key="rating.thumb.up" drawable="@drawable/ic_outline_rating_thumb_up" />
+        <icon key="rating.thumbs.up.down" drawable="@drawable/ic_outline_rating_thumbs_up_down" />
         <icon key="settings.advanced" drawable="@drawable/ic_outline_settings_advanced" />
         <icon key="settings.auto" drawable="@drawable/ic_outline_settings_auto" />
+        <icon key="settings.auto.recent" drawable="@drawable/ic_outline_settings_auto_recent" />
         <icon key="settings.backup" drawable="@drawable/ic_outline_settings_backup" />
         <icon key="settings.cache" drawable="@drawable/ic_outline_settings_cache" />
         <icon key="settings.cache.general" drawable="@drawable/ic_outline_settings_cache_general" />
         <icon key="settings.cache.image" drawable="@drawable/ic_outline_settings_cache_image" />
         <icon key="settings.cache.media" drawable="@drawable/ic_outline_settings_cache_media" />
         <icon key="settings.cache.playback" drawable="@drawable/ic_outline_settings_cache_playback" />
+        <icon key="settings.cache.transcoding" drawable="@drawable/ic_outline_settings_cache_transcoding" />
+        <icon key="settings.crash.reporting" drawable="@drawable/ic_outline_settings_crash_reporting" />
+        <icon key="settings.database" drawable="@drawable/ic_outline_settings_database" />
         <icon key="settings.theme.custom" drawable="@drawable/ic_outline_settings_theme_custom" />
         <icon key="settings.donation" drawable="@drawable/ic_outline_settings_donation" />
+        <icon key="settings.http" drawable="@drawable/ic_outline_settings_http" />
+        <icon key="settings.icon.pack" drawable="@drawable/ic_outline_settings_icon_pack" />
         <icon key="settings.interface" drawable="@drawable/ic_outline_settings_interface" />
         <icon key="settings.interface.advanced" drawable="@drawable/ic_outline_settings_interface_advanced" />
         <icon key="settings.interface.album" drawable="@drawable/ic_outline_settings_interface_album" />
@@ -677,31 +719,38 @@
         <icon key="settings.playback.advanced" drawable="@drawable/ic_outline_settings_playback_advanced" />
         <icon key="settings.playback.automatic" drawable="@drawable/ic_outline_settings_playback_automatic" />
         <icon key="settings.playback.buttons" drawable="@drawable/ic_outline_settings_playback_buttons" />
+        <icon key="settings.playback.buttons.click.one" drawable="@drawable/ic_outline_settings_playback_buttons_click_one" />
+        <icon key="settings.playback.buttons.click.three" drawable="@drawable/ic_outline_settings_playback_buttons_click_three" />
+        <icon key="settings.playback.buttons.click.two" drawable="@drawable/ic_outline_settings_playback_buttons_click_two" />
+        <icon key="settings.playback.buttons.slow" drawable="@drawable/ic_outline_settings_playback_buttons_slow" />
         <icon key="settings.playback.decoding" drawable="@drawable/ic_outline_settings_playback_decoding" />
         <icon key="settings.playback.focus" drawable="@drawable/ic_outline_settings_playback_focus" />
         <icon key="settings.playback.general" drawable="@drawable/ic_outline_settings_playback_general" />
+        <icon key="settings.playback.history" drawable="@drawable/ic_outline_settings_playback_history" />
+        <icon key="settings.playback.last.played" drawable="@drawable/ic_outline_settings_playback_last_played" />
         <icon key="settings.playback.progress" drawable="@drawable/ic_outline_settings_playback_progress" />
         <icon key="settings.playback.session" drawable="@drawable/ic_outline_settings_playback_session" />
         <icon key="settings.playback.transitions" drawable="@drawable/ic_outline_settings_playback_transitions" />
+        <icon key="settings.playback.transitions.smart" drawable="@drawable/ic_outline_settings_playback_transitions_smart" />
         <icon key="settings.restore.default" drawable="@drawable/ic_outline_settings_restore_default" />
         <icon key="settings.sync.manager" drawable="@drawable/ic_outline_settings_sync_manager" />
         <icon key="settings.theme" drawable="@drawable/ic_outline_settings_theme" />
         <icon key="settings.theme.import" drawable="@drawable/ic_outline_settings_theme_import" />
         <icon key="settings.translation" drawable="@drawable/ic_outline_settings_translation" />
+        <icon key="settings.waveform" drawable="@drawable/ic_outline_settings_waveform" />
         <icon key="settings.widgets" drawable="@drawable/ic_outline_settings_widgets" />
+        <icon key="settings.widgets.shortcut.type" drawable="@drawable/ic_outline_settings_widgets_shortcut_type" />
         <icon key="status.check.circle" drawable="@drawable/ic_outline_status_check_circle" />
         <icon key="status.download.done" drawable="@drawable/ic_outline_status_download_done" />
         <icon key="status.downloading" drawable="@drawable/ic_outline_status_downloading" />
         <icon key="status.error" drawable="@drawable/ic_outline_status_error" />
         <icon key="status.favorite.filled" drawable="@drawable/ic_outline_status_favorite_filled" />
-        <icon key="status.network.unavailable" drawable="@drawable/ic_outline_status_network_unavailable" />
         <icon key="status.offline.available" drawable="@drawable/ic_outline_status_offline_available" />
         <icon key="status.offline.download" drawable="@drawable/ic_outline_status_offline_download" />
         <icon key="status.offline.missing" drawable="@drawable/ic_outline_status_offline_missing" />
         <icon key="status.offline.sync" drawable="@drawable/ic_outline_status_offline_sync" />
         <icon key="status.unselected" drawable="@drawable/ic_outline_status_unselected" />
         <icon key="status.warning" drawable="@drawable/ic_outline_status_warning" />
-        <icon key="system.adb" drawable="@drawable/ic_outline_system_adb" />
         <icon key="system.android" drawable="@drawable/ic_outline_system_android" />
         <icon key="system.architecture" drawable="@drawable/ic_outline_system_architecture" />
         <icon key="system.bug.report" drawable="@drawable/ic_outline_system_bug_report" />
@@ -723,6 +772,7 @@
         <icon key="system.signal" drawable="@drawable/ic_outline_system_signal" />
         <icon key="system.support.agent" drawable="@drawable/ic_outline_system_support_agent" />
         <icon key="system.toast" drawable="@drawable/ic_outline_system_toast" />
+        <icon key="system.version" drawable="@drawable/ic_outline_system_version" />
         <icon key="system.wifi" drawable="@drawable/ic_outline_system_wifi" />
         <icon key="system.wifi.signal" drawable="@drawable/ic_outline_system_wifi_signal" />
     </pack>
