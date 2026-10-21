@@ -102,13 +102,11 @@ For a release APK:
 ./gradlew :app:assembleRelease
 ```
 
-For a Play/GitHub release bundle:
-
-```bash
-./gradlew :app:bundleRelease
-```
-
 Configure signing in your own environment before publishing. Do not commit private signing keys.
+
+**Keep a secure backup of your release keystore and its password. Do not lose either.** Every update must be signed with the same key so users can update an installed pack and you can upload updates to your existing icon pack on the Symfonium customization site. Losing the keystore or its password prevents you from signing compatible updates.
+
+[Symfonium Customizations](https://styles.symfonium.app/) is the preferred way to distribute icon packs. Upload your signed release APK there to share your pack and publish future updates.
 
 ## Attribution
 
