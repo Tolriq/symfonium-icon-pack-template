@@ -232,6 +232,8 @@
         <icon key="playback.forward.30" drawable="@drawable/ic_filled_playback_forward_30" />
         <icon key="playback.lyrics" drawable="@drawable/ic_filled_playback_lyrics" />
         <icon key="playback.lyrics.filled" drawable="@drawable/ic_filled_playback_lyrics_filled" />
+        <icon key="playback.lyrics.overlay" drawable="@drawable/ic_filled_playback_lyrics_overlay" />
+        <icon key="playback.lyrics.overlay.filled" drawable="@drawable/ic_filled_playback_lyrics_overlay_filled" />
         <icon key="playback.next" drawable="@drawable/ic_filled_playback_next" />
         <icon key="playback.chapter.next" drawable="@drawable/ic_filled_playback_chapter_next" />
         <icon key="playback.pause" drawable="@drawable/ic_filled_playback_pause_filled" />
@@ -620,6 +622,8 @@
         <icon key="playback.forward.30" drawable="@drawable/ic_outline_playback_forward_30" />
         <icon key="playback.lyrics" drawable="@drawable/ic_outline_playback_lyrics" />
         <icon key="playback.lyrics.filled" drawable="@drawable/ic_outline_playback_lyrics_filled" />
+        <icon key="playback.lyrics.overlay" drawable="@drawable/ic_outline_playback_lyrics_overlay" />
+        <icon key="playback.lyrics.overlay.filled" drawable="@drawable/ic_outline_playback_lyrics_overlay_filled" />
         <icon key="playback.next" drawable="@drawable/ic_outline_playback_next" />
         <icon key="playback.chapter.next" drawable="@drawable/ic_outline_playback_chapter_next" />
         <icon key="playback.pause" drawable="@drawable/ic_outline_playback_pause" />

@@ -2,7 +2,7 @@
 
 These are the icon keys supported by the current Symfonium external icon-pack contract.
 
-Both bundled Material packs map every key below (386 keys). The filled pack uses `@drawable/ic_filled_*`; the rounded pack uses `@drawable/ic_outline_*`. You can delete mappings you do not want to override; Symfonium falls back to its built-in icon for missing keys.
+Both bundled Material packs map every key below (388 keys). The filled pack uses `@drawable/ic_filled_*`; the rounded pack uses `@drawable/ic_outline_*`. You can delete mappings you do not want to override; Symfonium falls back to its built-in icon for missing keys.
 
 Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. The bundled filled pack maps selected/unselected pairs to filled artwork, but keeps explicit state pairs distinct. The `playback.play` and `playback.pause` base keys used by the main Now Playing controls share filled artwork with their `.filled` variants, which represent different UI usages rather than off/on states.
 
@@ -241,6 +241,8 @@ The quick-rate button shows `rating.thumbs.up.down` while a track is unrated, th
 | `playback.forward.30` | `@drawable/ic_filled_playback_forward_30` | `@drawable/ic_outline_playback_forward_30` | Playback control, queue, mode, or playback state |
 | `playback.lyrics` | `@drawable/ic_filled_playback_lyrics` | `@drawable/ic_outline_playback_lyrics` | Playback control, queue, mode, or playback state |
 | `playback.lyrics.filled` | `@drawable/ic_filled_playback_lyrics_filled` | `@drawable/ic_outline_playback_lyrics_filled` | Playback control, queue, mode, or playback state |
+| `playback.lyrics.overlay` | `@drawable/ic_filled_playback_lyrics_overlay` | `@drawable/ic_outline_playback_lyrics_overlay` | Playback control, queue, mode, or playback state |
+| `playback.lyrics.overlay.filled` | `@drawable/ic_filled_playback_lyrics_overlay_filled` | `@drawable/ic_outline_playback_lyrics_overlay_filled` | Playback control, queue, mode, or playback state |
 | `playback.next` | `@drawable/ic_filled_playback_next` | `@drawable/ic_outline_playback_next` | Playback control, queue, mode, or playback state |
 | `playback.chapter.next` | `@drawable/ic_filled_playback_chapter_next` | `@drawable/ic_outline_playback_chapter_next` | Playback control, queue, mode, or playback state |
 | `playback.pause` | `@drawable/ic_filled_playback_pause_filled` | `@drawable/ic_outline_playback_pause` | Playback control, queue, mode, or playback state |
