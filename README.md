@@ -13,6 +13,8 @@ This project ships two full packs in the same APK. Both map every icon key curre
 
 The generated drawables come from `@material-symbols/svg-400@0.45.5` using `rounded/*.svg` and `rounded/*-fill.svg`. Provider logos and Material symbols that are not present in that package use Symfonium's existing fallback vector paths.
 
+The sample packs follow the app's current semantic glyph choices, including Sensors for Radio Mix and AutoAwesome for Smart Flow. Smart Flow uses outline artwork for its inactive and button keys and filled artwork for its active `.filled` key in both packs, so its state stays distinguishable. Other style differences are intentional: the filled pack uses filled glyphs by default, selected navigation keys use filled glyphs in both packs, and the display-cutout setting uses a solid circle in both packs.
+
 All icons are single-color vector drawables because Symfonium tints icon-pack drawables at render time. Do not rely on multicolor artwork unless Symfonium explicitly adds untinted support for that surface.
 
 ## Minimal Partial Pack

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Source: @material-symbols/svg-400@0.45.5 rounded/headphones-fill.svg -->
+<!-- Source: @material-symbols/svg-400@0.45.5 rounded/settings_remote-fill.svg -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
@@ -9,6 +9,6 @@
         android:translateY="960">
         <path
             android:fillColor="#FF000000"
-            android:pathData="M268-120h-88q-24 0-42-18t-18-42v-300q0-75 28.5-140.5t77-114q48.5-48.5 114-77T480-840q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480v300q0 24-18 42t-42 18h-88q-25 0-42.5-17.5T632-180v-176q0-25 17.5-42.5T692-416h88v-64q0-125-87.5-212.5T480-780q-125 0-212.5 87.5T180-480v64h88q25 0 42.5 17.5T328-356v176q0 25-17.5 42.5T268-120Z" />
+            android:pathData="M358-40q-16 0-27-11t-11-27v-484q0-16 11-27t27-11h244q16 0 27 11t11 27v484q0 16-11 27t-27 11H358Zm122-358q17 0 29.5-12.5T522-440q0-18-12-31t-30-13q-18 0-31 13t-13 31q0 18 13 30t31 12Zm0-342q-36 0-70 11.5T347-695q-10 8-22.5 7.5T303-697q-9-9-8.5-21.5T305-739q38-30 82.5-45.5T480-800q48 0 92.5 15.5T655-739q10 8 10.5 20.5T657-697q-9 9-21.5 9.5T613-695q-29-22-63-33.5T480-740Zm0-160q-68 0-130.5 23T235-811q-11 8-24 8.5t-22-8.5q-9-9-8.5-21.5T191-853q61-51 135-79t154-28q80 0 153.5 27.5T767-852q10 8 10.5 21t-8.5 22q-9 9-22 8t-24-10q-51-44-113.5-66.5T480-900Z" />
     </group>
 </vector>
