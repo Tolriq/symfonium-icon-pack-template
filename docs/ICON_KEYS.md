@@ -2,11 +2,13 @@
 
 These are the icon keys supported by the current Symfonium external icon-pack contract.
 
-Both bundled Material packs map every key below (388 keys). The filled pack uses `@drawable/ic_filled_*`; the rounded pack uses `@drawable/ic_outline_*`. You can delete mappings you do not want to override; Symfonium falls back to its built-in icon for missing keys.
+Both bundled Material packs map every key below (398 keys). The filled pack uses `@drawable/ic_filled_*`; the rounded pack uses `@drawable/ic_outline_*`. You can delete mappings you do not want to override; Symfonium falls back to its built-in icon for missing semantic keys. Unmapped custom slots remain absent.
 
 Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. The bundled filled pack maps selected/unselected pairs to filled artwork, but keeps explicit state pairs distinct. The `playback.play` and `playback.pause` base keys used by the main Now Playing controls share filled artwork with their `.filled` variants, which represent different UI usages rather than off/on states.
 
 The quick-rate button shows `rating.thumbs.up.down` while a track is unrated, then `rating.thumb.up` or `rating.thumb.down` once rated. Both bundled packs draw the rated thumbs filled so they read as set states.
+
+The reserved keys `custom.0` through `custom.9` are optional Custom icon 0 through Custom icon 9 slots. Each meaning is pack-defined; the mappings below draw the matching numerals 0 through 9 and may be replaced or removed. Use `%icon:custom.0%` through `%icon:custom.9%` in rich custom strings. An unmapped slot contributes no icon or space, does not activate an optional curly block, and does not add a joined-line separator. See `AUTHOR_GUIDE.md` for XML and conditional examples.
 
 | Key | Filled drawable | Rounded drawable | Meaning |
 | --- | --- | --- | --- |
@@ -398,3 +400,13 @@ The quick-rate button shows `rating.thumbs.up.down` while a track is unrated, th
 | `system.version` | `@drawable/ic_filled_system_version` | `@drawable/ic_outline_system_version` | System, device, support, or platform concept |
 | `system.wifi` | `@drawable/ic_filled_system_wifi` | `@drawable/ic_outline_system_wifi` | System, device, support, or platform concept |
 | `system.wifi.signal` | `@drawable/ic_filled_system_wifi_signal` | `@drawable/ic_outline_system_wifi_signal` | System, device, support, or platform concept |
+| `custom.0` | `@drawable/ic_filled_custom_0` | `@drawable/ic_outline_custom_0` | Custom icon 0: pack-defined optional slot; default numeral 0 |
+| `custom.1` | `@drawable/ic_filled_custom_1` | `@drawable/ic_outline_custom_1` | Custom icon 1: pack-defined optional slot; default numeral 1 |
+| `custom.2` | `@drawable/ic_filled_custom_2` | `@drawable/ic_outline_custom_2` | Custom icon 2: pack-defined optional slot; default numeral 2 |
+| `custom.3` | `@drawable/ic_filled_custom_3` | `@drawable/ic_outline_custom_3` | Custom icon 3: pack-defined optional slot; default numeral 3 |
+| `custom.4` | `@drawable/ic_filled_custom_4` | `@drawable/ic_outline_custom_4` | Custom icon 4: pack-defined optional slot; default numeral 4 |
+| `custom.5` | `@drawable/ic_filled_custom_5` | `@drawable/ic_outline_custom_5` | Custom icon 5: pack-defined optional slot; default numeral 5 |
+| `custom.6` | `@drawable/ic_filled_custom_6` | `@drawable/ic_outline_custom_6` | Custom icon 6: pack-defined optional slot; default numeral 6 |
+| `custom.7` | `@drawable/ic_filled_custom_7` | `@drawable/ic_outline_custom_7` | Custom icon 7: pack-defined optional slot; default numeral 7 |
+| `custom.8` | `@drawable/ic_filled_custom_8` | `@drawable/ic_outline_custom_8` | Custom icon 8: pack-defined optional slot; default numeral 8 |
+| `custom.9` | `@drawable/ic_filled_custom_9` | `@drawable/ic_outline_custom_9` | Custom icon 9: pack-defined optional slot; default numeral 9 |

@@ -6,7 +6,7 @@ The APK contains only resources and a metadata-only discovery service. Symfonium
 
 ## Included Packs
 
-This project ships two full packs in the same APK. Both map every icon key currently exposed by the Symfonium external icon API (388 keys):
+This project ships two full packs in the same APK. Both map every icon key currently exposed by the Symfonium external icon API (398 keys):
 
 - `rounded` / `Material Rounded`: Material Symbols rounded, fill 0 by default. Explicit `.selected` and `.filled` state keys use filled glyphs where available.
 - `rounded-filled` / `Material Rounded Filled`: Material Symbols rounded, fill 1 by default. Selected/unselected pairs intentionally use the same filled style, while explicit state pairs such as `.filled`, `.on`, and `.active` keep distinct off/on or idle/active artwork. Play/pause base keys and their `.filled` variants both use filled artwork because they identify different UI usages, not off/on states.
@@ -19,7 +19,7 @@ All icons are single-color vector drawables because Symfonium tints icon-pack dr
 
 ## Minimal Partial Pack
 
-You do not need to ship two packs or cover every key. A valid APK can expose a single selectable pack and only map the icons you want to override. Missing keys automatically use Symfonium's built-in icons.
+You do not need to ship two packs or cover every key. A valid APK can expose a single selectable pack and only map the icons you want to override. Missing semantic keys automatically use Symfonium's built-in icons. The optional custom slots described below have no built-in icon and remain absent when unmapped.
 
 ```xml
 <symfonium-icon-pack version="1">
@@ -31,6 +31,27 @@ You do not need to ship two packs or cover every key. A valid APK can expose a s
 ```
 
 Keep the `<pack>` wrapper even when the APK exposes only one pack.
+
+## Optional Custom Icons
+
+Symfonium reserves exactly ten generic slots: `custom.0`, `custom.1`, `custom.2`, `custom.3`, `custom.4`, `custom.5`, `custom.6`, `custom.7`, `custom.8`, and `custom.9`. Their labels are Custom icon 0 through Custom icon 9. The pack author defines each slot's meaning; slot numbers do not imply quality levels or any other fixed meaning. The bundled packs draw each slot as its matching numeral, 0 through 9. You can replace or remove these default mappings.
+
+The numeral vectors are generated from pinned Material Symbols sources. See [tools/custom-icons](tools/custom-icons/README.md) to regenerate or check them offline.
+
+A pack may map any subset of these slots, including a pack containing only custom icons:
+
+```xml
+<symfonium-icon-pack version="1">
+    <pack id="quality" label="My Quality Icons">
+        <icon key="custom.0" drawable="@drawable/ic_custom_0" />
+        <icon key="custom.9" drawable="@drawable/ic_custom_9" />
+    </pack>
+</symfonium-icon-pack>
+```
+
+Use `%icon:custom.0%` through `%icon:custom.9%` in rich custom strings. Existing conditions, inline size, and tint apply. For a pack that defines slot 0 as its high-resolution lossless indicator, a custom string can use `{%icon:custom.0|quality.hires.lossless=="true"%}`. See `docs/AUTHOR_GUIDE.md` for optional-block examples and testing.
+
+Without a selected pack or a mapping for a slot, the placeholder contributes no icon or space, does not enable an optional curly block, and does not add a joined-line separator. A mapped icon uses a transparent fallback while loading or if drawing fails. Other semantic icons retain their built-in fallbacks.
 
 ## Build
 
@@ -62,7 +83,7 @@ Most icon-pack authors only need to edit these files:
 
 Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. Keep explicit state pairs separate from their base keys unless your icon style has no meaningful state distinction. The main Now Playing controls use `playback.play` and `playback.pause`; their `.filled` variants are used on other playback controls, so a filled-style pack should provide filled artwork for both.
 
-You can remove mappings you do not want to override; Symfonium will use its built-in icon for missing keys.
+You can remove mappings you do not want to override; Symfonium uses its built-in icon for missing semantic keys and hides missing custom slots.
 
 ## Contract Summary
 

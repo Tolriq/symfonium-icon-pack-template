@@ -57,11 +57,36 @@ PNG or WebP drawables can work too, but vector drawables are smaller and tint be
 
 Edit `app/src/main/res/xml/symfonium_icon_pack.xml`.
 
-Only mapped keys are replaced. A pack with just a couple of `<icon>` entries is valid. If a key is missing, Symfonium uses its built-in icon.
+Only mapped keys are replaced. A pack with just a couple of `<icon>` entries is valid. If a semantic key is missing, Symfonium uses its built-in icon. An unmapped custom slot has no built-in icon and remains absent.
 
 Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. Keep explicit state pairs separate from their base keys unless your icon style has no meaningful state distinction. A filled-style pack can still map selected/unselected navigation states to filled artwork. The main Now Playing controls use `playback.play` and `playback.pause`, while other playback controls use their `.filled` variants. These are different UI usages, not off/on states; provide filled artwork for both in a filled-style pack.
 
 Invalid keys, invalid drawables, invalid pack ids, and icons outside a `<pack>` element are ignored by Symfonium.
+
+### Optional Custom Slots
+
+The ten reserved keys are `custom.0`, `custom.1`, `custom.2`, `custom.3`, `custom.4`, `custom.5`, `custom.6`, `custom.7`, `custom.8`, and `custom.9` (Custom icon 0 through Custom icon 9). Each slot's meaning belongs to your pack. The provided mappings draw the matching numeral, 0 through 9; replace them with your own drawings or remove them. Keys such as `custom.-1`, `custom.10`, `custom.11`, `custom.00`, and `custom.01` are invalid.
+
+Map any subset with the existing XML format. A pack containing only custom-slot mappings is valid:
+
+```xml
+<symfonium-icon-pack version="1">
+    <pack id="custom" label="My Custom Icons">
+        <icon key="custom.0" drawable="@drawable/ic_custom_0" />
+        <icon key="custom.9" drawable="@drawable/ic_custom_9" />
+    </pack>
+</symfonium-icon-pack>
+```
+
+Rich custom strings use the existing icon placeholders, formatting, size, and tint:
+
+```text
+%icon:custom.0% %title%
+{%icon:custom.9% custom badge}
+{%icon:custom.0|quality.hires.lossless=="true"%}
+```
+
+The last example is appropriate only if your pack defines slot 0 as its high-resolution lossless indicator. Conditions come from the custom string, not from the slot number. Without a selected pack or a mapping, a custom placeholder produces no icon or reserved space, does not activate its optional curly block, and does not contribute a joined-line separator. A mapped drawing remains available to conditions while it loads; loading or drawing failures use a transparent fallback.
 
 ## 5. Build And Test
 
@@ -78,7 +103,7 @@ In Symfonium:
 Settings > Interface > Theme, icons, fonts and colors > Icon pack
 ```
 
-Select each pack and inspect the replaced surfaces. For a partial pack, verify that unmapped icons fall back to the built-in Symfonium icons.
+Select each pack and inspect the replaced surfaces. For a partial pack, verify that unmapped semantic icons fall back to the built-in Symfonium icons. Check custom slots 0 and 9 in settings previews and live rich text, with true and false conditions. Check unmapped slots and optional blocks for stray space or separators. Switch, update, and remove the selected pack to verify that drawings and availability refresh.
 
 ## 6. Publish
 

@@ -389,6 +389,16 @@
         <icon key="system.version" drawable="@drawable/ic_filled_system_version" />
         <icon key="system.wifi" drawable="@drawable/ic_filled_system_wifi" />
         <icon key="system.wifi.signal" drawable="@drawable/ic_filled_system_wifi_signal" />
+        <icon key="custom.0" drawable="@drawable/ic_filled_custom_0" />
+        <icon key="custom.1" drawable="@drawable/ic_filled_custom_1" />
+        <icon key="custom.2" drawable="@drawable/ic_filled_custom_2" />
+        <icon key="custom.3" drawable="@drawable/ic_filled_custom_3" />
+        <icon key="custom.4" drawable="@drawable/ic_filled_custom_4" />
+        <icon key="custom.5" drawable="@drawable/ic_filled_custom_5" />
+        <icon key="custom.6" drawable="@drawable/ic_filled_custom_6" />
+        <icon key="custom.7" drawable="@drawable/ic_filled_custom_7" />
+        <icon key="custom.8" drawable="@drawable/ic_filled_custom_8" />
+        <icon key="custom.9" drawable="@drawable/ic_filled_custom_9" />
     </pack>
     <pack id="rounded" label="Material Rounded">
         <icon key="action.add" drawable="@drawable/ic_outline_action_add" />
@@ -779,5 +789,15 @@
         <icon key="system.version" drawable="@drawable/ic_outline_system_version" />
         <icon key="system.wifi" drawable="@drawable/ic_outline_system_wifi" />
         <icon key="system.wifi.signal" drawable="@drawable/ic_outline_system_wifi_signal" />
+        <icon key="custom.0" drawable="@drawable/ic_outline_custom_0" />
+        <icon key="custom.1" drawable="@drawable/ic_outline_custom_1" />
+        <icon key="custom.2" drawable="@drawable/ic_outline_custom_2" />
+        <icon key="custom.3" drawable="@drawable/ic_outline_custom_3" />
+        <icon key="custom.4" drawable="@drawable/ic_outline_custom_4" />
+        <icon key="custom.5" drawable="@drawable/ic_outline_custom_5" />
+        <icon key="custom.6" drawable="@drawable/ic_outline_custom_6" />
+        <icon key="custom.7" drawable="@drawable/ic_outline_custom_7" />
+        <icon key="custom.8" drawable="@drawable/ic_outline_custom_8" />
+        <icon key="custom.9" drawable="@drawable/ic_outline_custom_9" />
     </pack>
 </symfonium-icon-pack>
