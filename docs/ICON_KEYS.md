@@ -2,7 +2,7 @@
 
 These are the icon keys supported by the current Symfonium external icon-pack contract.
 
-Both bundled Material packs map every key below (398 keys). The filled pack uses `@drawable/ic_filled_*`; the rounded pack uses `@drawable/ic_outline_*`. You can delete mappings you do not want to override; Symfonium falls back to its built-in icon for missing semantic keys. Unmapped custom slots remain absent.
+Both bundled Material packs map every key below (399 keys). The filled pack uses `@drawable/ic_filled_*`; the rounded pack uses `@drawable/ic_outline_*`. You can delete mappings you do not want to override; Symfonium falls back to its built-in icon for missing semantic keys. Unmapped custom slots remain absent.
 
 Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. The bundled filled pack maps selected/unselected pairs to filled artwork, but keeps explicit state pairs distinct. The `playback.play` and `playback.pause` base keys used by the main Now Playing controls share filled artwork with their `.filled` variants, which represent different UI usages rather than off/on states.
 
@@ -17,6 +17,7 @@ The reserved keys `custom.0` through `custom.9` are optional Custom icon 0 throu
 | `action.home.add` | `@drawable/ic_filled_action_home_add` | `@drawable/ic_outline_action_home_add` | User action or command |
 | `action.playlist.add` | `@drawable/ic_filled_action_playlist_add` | `@drawable/ic_outline_action_playlist_add` | User action or command |
 | `action.playlist.add.button` | `@drawable/ic_filled_action_playlist_add_button` | `@drawable/ic_outline_action_playlist_add_button` | User action or command |
+| `action.archive` | `@drawable/ic_filled_action_archive` | `@drawable/ic_outline_action_archive` | Archive files as a ZIP |
 | `action.cancel` | `@drawable/ic_filled_action_cancel` | `@drawable/ic_outline_action_cancel` | User action or command |
 | `action.check` | `@drawable/ic_filled_action_check` | `@drawable/ic_outline_action_check` | User action or command |
 | `action.checklist` | `@drawable/ic_filled_action_checklist` | `@drawable/ic_outline_action_checklist` | User action or command |

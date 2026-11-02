@@ -6,6 +6,7 @@
         <icon key="action.home.add" drawable="@drawable/ic_filled_action_home_add" />
         <icon key="action.playlist.add" drawable="@drawable/ic_filled_action_playlist_add" />
         <icon key="action.playlist.add.button" drawable="@drawable/ic_filled_action_playlist_add_button" />
+        <icon key="action.archive" drawable="@drawable/ic_filled_action_archive" />
         <icon key="action.cancel" drawable="@drawable/ic_filled_action_cancel" />
         <icon key="action.check" drawable="@drawable/ic_filled_action_check" />
         <icon key="action.checklist" drawable="@drawable/ic_filled_action_checklist" />
@@ -406,6 +407,7 @@
         <icon key="action.home.add" drawable="@drawable/ic_outline_action_home_add" />
         <icon key="action.playlist.add" drawable="@drawable/ic_outline_action_playlist_add" />
         <icon key="action.playlist.add.button" drawable="@drawable/ic_outline_action_playlist_add_button" />
+        <icon key="action.archive" drawable="@drawable/ic_outline_action_archive" />
         <icon key="action.cancel" drawable="@drawable/ic_outline_action_cancel" />
         <icon key="action.check" drawable="@drawable/ic_outline_action_check" />
         <icon key="action.checklist" drawable="@drawable/ic_outline_action_checklist" />
