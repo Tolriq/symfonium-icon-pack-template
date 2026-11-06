@@ -64,6 +64,16 @@
         <icon key="action.swap" drawable="@drawable/ic_filled_action_swap" />
         <icon key="action.sync" drawable="@drawable/ic_filled_action_sync" />
         <icon key="action.sync.disabled" drawable="@drawable/ic_filled_action_sync_disabled" />
+        <icon key="action.toggle.bool.1" drawable="@drawable/ic_filled_action_toggle_bool_1" />
+        <icon key="action.toggle.bool.1.filled" drawable="@drawable/ic_filled_action_toggle_bool_1_filled" />
+        <icon key="action.toggle.bool.2" drawable="@drawable/ic_filled_action_toggle_bool_2" />
+        <icon key="action.toggle.bool.2.filled" drawable="@drawable/ic_filled_action_toggle_bool_2_filled" />
+        <icon key="action.toggle.bool.3" drawable="@drawable/ic_filled_action_toggle_bool_3" />
+        <icon key="action.toggle.bool.3.filled" drawable="@drawable/ic_filled_action_toggle_bool_3_filled" />
+        <icon key="action.toggle.bool.4" drawable="@drawable/ic_filled_action_toggle_bool_4" />
+        <icon key="action.toggle.bool.4.filled" drawable="@drawable/ic_filled_action_toggle_bool_4_filled" />
+        <icon key="action.toggle.bool.5" drawable="@drawable/ic_filled_action_toggle_bool_5" />
+        <icon key="action.toggle.bool.5.filled" drawable="@drawable/ic_filled_action_toggle_bool_5_filled" />
         <icon key="action.unlock" drawable="@drawable/ic_filled_action_unlock" />
         <icon key="action.upload" drawable="@drawable/ic_filled_action_upload" />
         <icon key="action.visibility" drawable="@drawable/ic_filled_action_visibility" />
@@ -465,6 +475,16 @@
         <icon key="action.swap" drawable="@drawable/ic_outline_action_swap" />
         <icon key="action.sync" drawable="@drawable/ic_outline_action_sync" />
         <icon key="action.sync.disabled" drawable="@drawable/ic_outline_action_sync_disabled" />
+        <icon key="action.toggle.bool.1" drawable="@drawable/ic_outline_action_toggle_bool_1" />
+        <icon key="action.toggle.bool.1.filled" drawable="@drawable/ic_outline_action_toggle_bool_1_filled" />
+        <icon key="action.toggle.bool.2" drawable="@drawable/ic_outline_action_toggle_bool_2" />
+        <icon key="action.toggle.bool.2.filled" drawable="@drawable/ic_outline_action_toggle_bool_2_filled" />
+        <icon key="action.toggle.bool.3" drawable="@drawable/ic_outline_action_toggle_bool_3" />
+        <icon key="action.toggle.bool.3.filled" drawable="@drawable/ic_outline_action_toggle_bool_3_filled" />
+        <icon key="action.toggle.bool.4" drawable="@drawable/ic_outline_action_toggle_bool_4" />
+        <icon key="action.toggle.bool.4.filled" drawable="@drawable/ic_outline_action_toggle_bool_4_filled" />
+        <icon key="action.toggle.bool.5" drawable="@drawable/ic_outline_action_toggle_bool_5" />
+        <icon key="action.toggle.bool.5.filled" drawable="@drawable/ic_outline_action_toggle_bool_5_filled" />
         <icon key="action.unlock" drawable="@drawable/ic_outline_action_unlock" />
         <icon key="action.upload" drawable="@drawable/ic_outline_action_upload" />
         <icon key="action.visibility" drawable="@drawable/ic_outline_action_visibility" />

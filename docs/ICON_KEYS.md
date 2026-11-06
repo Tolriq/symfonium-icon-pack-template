@@ -2,7 +2,7 @@
 
 These are the icon keys supported by the current Symfonium external icon-pack contract.
 
-Both bundled Material packs map every key below (399 keys). The filled pack uses `@drawable/ic_filled_*`; the rounded pack uses `@drawable/ic_outline_*`. You can delete mappings you do not want to override; Symfonium falls back to its built-in icon for missing semantic keys. Unmapped custom slots remain absent.
+Both bundled Material packs map every key below (409 keys). The filled pack uses `@drawable/ic_filled_*`; the rounded pack uses `@drawable/ic_outline_*`. You can delete mappings you do not want to override; Symfonium falls back to its built-in icon for missing semantic keys. Unmapped custom slots remain absent.
 
 Keys ending in `.selected` are selected tab or selected navigation state variants. Keys ending in `.filled`, `.on`, or `.active` are explicit state variants. The bundled filled pack maps selected/unselected pairs to filled artwork, but keeps explicit state pairs distinct. The `playback.play` and `playback.pause` base keys used by the main Now Playing controls share filled artwork with their `.filled` variants, which represent different UI usages rather than off/on states.
 
@@ -75,6 +75,16 @@ The reserved keys `custom.0` through `custom.9` are optional Custom icon 0 throu
 | `action.swap` | `@drawable/ic_filled_action_swap` | `@drawable/ic_outline_action_swap` | User action or command |
 | `action.sync` | `@drawable/ic_filled_action_sync` | `@drawable/ic_outline_action_sync` | User action or command |
 | `action.sync.disabled` | `@drawable/ic_filled_action_sync_disabled` | `@drawable/ic_outline_action_sync_disabled` | User action or command |
+| `action.toggle.bool.1` | `@drawable/ic_filled_action_toggle_bool_1` | `@drawable/ic_outline_action_toggle_bool_1` | User action or command |
+| `action.toggle.bool.1.filled` | `@drawable/ic_filled_action_toggle_bool_1_filled` | `@drawable/ic_outline_action_toggle_bool_1_filled` | User action or command |
+| `action.toggle.bool.2` | `@drawable/ic_filled_action_toggle_bool_2` | `@drawable/ic_outline_action_toggle_bool_2` | User action or command |
+| `action.toggle.bool.2.filled` | `@drawable/ic_filled_action_toggle_bool_2_filled` | `@drawable/ic_outline_action_toggle_bool_2_filled` | User action or command |
+| `action.toggle.bool.3` | `@drawable/ic_filled_action_toggle_bool_3` | `@drawable/ic_outline_action_toggle_bool_3` | User action or command |
+| `action.toggle.bool.3.filled` | `@drawable/ic_filled_action_toggle_bool_3_filled` | `@drawable/ic_outline_action_toggle_bool_3_filled` | User action or command |
+| `action.toggle.bool.4` | `@drawable/ic_filled_action_toggle_bool_4` | `@drawable/ic_outline_action_toggle_bool_4` | User action or command |
+| `action.toggle.bool.4.filled` | `@drawable/ic_filled_action_toggle_bool_4_filled` | `@drawable/ic_outline_action_toggle_bool_4_filled` | User action or command |
+| `action.toggle.bool.5` | `@drawable/ic_filled_action_toggle_bool_5` | `@drawable/ic_outline_action_toggle_bool_5` | User action or command |
+| `action.toggle.bool.5.filled` | `@drawable/ic_filled_action_toggle_bool_5_filled` | `@drawable/ic_outline_action_toggle_bool_5_filled` | User action or command |
 | `action.unlock` | `@drawable/ic_filled_action_unlock` | `@drawable/ic_outline_action_unlock` | User action or command |
 | `action.upload` | `@drawable/ic_filled_action_upload` | `@drawable/ic_outline_action_upload` | User action or command |
 | `action.visibility` | `@drawable/ic_filled_action_visibility` | `@drawable/ic_outline_action_visibility` | User action or command |
